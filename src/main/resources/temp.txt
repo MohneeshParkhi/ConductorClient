@@ -1,0 +1,35 @@
+/*TaskClient taskClient = new TaskClient();
+		
+		taskClient.setRootURI("http://localhost:8080/api/");
+		
+		// number of threads used to execute the workers.... to avoid startvation...
+		int threadCount =5;
+		
+		
+		Worker worker1 = new SampleKitchenWorker("Ingestion");
+		
+	
+	
+		/*Worker worker2 = new SampleKitchenWorker("task_5");
+		Worker worker3 = new SampleKitchenWorker("task_10");
+		//Worker worker6 = new SampleKitchenWorker("wf3");
+		Worker worker4 = new SampleKitchenWorker("task_11");
+		Worker worker6 = new SampleKitchenWorker("task_5");
+		Worker worker8 = new SampleKitchenWorker("task_6");
+		//Worker worker7 = new SampleKitchenWorker("JOIN");
+		
+		 
+		Worker worker5 = new SampleKitchenWorker("task_30");
+		
+		//Worker worker6 = new SampleKitchenWorker("");
+		
+		//worker2,worker3,worker4,worker8,worker6,worker5
+		// create a workFlowTaskConrdinator....
+		
+		WorkflowTaskCoordinator.Builder builder = new WorkflowTaskCoordinator.Builder();
+		WorkflowTaskCoordinator coordinator = builder.withWorkers(worker1).withThreadCount(threadCount).withTaskClient(taskClient).build(); 
+	
+		coordinator.init();
+		
+		
+		*/
